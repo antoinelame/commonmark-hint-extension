@@ -31,7 +31,7 @@ final class HintRenderer implements NodeRendererInterface
         $title = $node->getTitle();
         $title = $title
             ? new HtmlElement(
-                'h2',
+                'span',
                 ['class' => 'hint-title'],
                 $title,
             )
